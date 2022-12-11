@@ -1,0 +1,8 @@
+.container-2 {
+    border: 1px solid red;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

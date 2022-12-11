@@ -1,0 +1,10 @@
+#root {
+  text-align: center;
+  max-width: 1440px;
+}
+
+.App {
+  width: 100vw;
+  border: 1px solid red;
+
+}
