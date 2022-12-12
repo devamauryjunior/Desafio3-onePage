@@ -4,8 +4,7 @@ import "./style.css";
 function Input(props) {
     const {typeInput, placeholder} = props;
     return (
-        
-        <input className="input-types" type={typeInput} placeholder={placeholder}/>
+        <input className="input-types" type={typeInput} placeholder={placeholder} required/>
     )
 }
 
