@@ -14,7 +14,7 @@ function Initial() {
                 <p className="ct1-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.
                 </p>
-                <Button width="15.5rem" text="Botão" fontWeight="400"/>
+                <Button type="button" width="15.5rem" text="Botão" fontWeight="400"/>
             </div>
             <img src={img} alt="imagem" />
         </header>

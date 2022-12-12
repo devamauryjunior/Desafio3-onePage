@@ -1,8 +1,11 @@
 import React from "react";
+import "./style.css";
 
-function Input({typeInput, placeholderInput}) {
+function Input(props) {
+    const {typeInput, placeholder} = props;
     return (
-        <input type={typeInput} className="input-types" placeholder={placeholderInput}/>
+        
+        <input className="input-types" type={typeInput} placeholder={placeholder}/>
     )
 }
 

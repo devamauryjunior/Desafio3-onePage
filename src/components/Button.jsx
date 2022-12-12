@@ -1,6 +1,6 @@
 import React from "react";
 
-function Button({width, text, fontWeight}) {
+function Button({typeButton, width, text, fontWeight}) {
     const mySytleButton = {
         width,
         fontWeight,
@@ -15,7 +15,7 @@ function Button({width, text, fontWeight}) {
         cursor: 'pointer',
     }
     return (
-        <button style={mySytleButton}>{text}</button>
+        <button type={typeButton} style={mySytleButton}>{text}</button>
     )
 }
 
