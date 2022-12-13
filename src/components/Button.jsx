@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 function Button({typeButton, width, text, fontWeight}) {
+
     const mySytleButton = {
         width,
         fontWeight,

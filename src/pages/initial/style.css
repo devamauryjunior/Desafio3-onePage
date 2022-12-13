@@ -30,3 +30,28 @@
     line-height: 3.2rem;
     margin-bottom: 4.5rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .container-1 {
+        border: 1px solid red;
+        gap: 2rem;
+    }
+
+    .ct1-text-title {
+        font-size: 3.2rem;
+    }
+
+    .ct1-text {
+        font-size: 1.8rem;
+    }
+
+    .ct1-img {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .container-1 {
+        flex-direction: column;
+    }
+}
